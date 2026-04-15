@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nolan Archie - phone modding, bots, C++, Python, and music."
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Nolan Archie</title>
+  </head>
+  <body>
+    <video
+      class="background-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      aria-hidden="true"
+    >
+      <source
+        src="assets/images/12686138_3840_2160_30fps.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="background-overlay" aria-hidden="true"></div>
+
+    <header class="site-header reveal reveal-down" data-delay="0">
+      <a class="logo" href="#home">NOLAN</a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#devices">Devices</a>
+        <a href="#socials">Socials</a>
+      </nav>
+
+      <a
+        class="header-link"
+        href="http://t.me/nolanarchie"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Telegram
+      </a>
+
+      <button
+        id="menu"
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-mobile"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div id="nav-mobile" class="mobile-nav" hidden>
+      <div class="mobile-nav-panel">
+        <div class="mobile-nav-header">
+          <span>NOLAN</span>
+          <button id="close-mobile" class="close-button" type="button" aria-label="Close navigation menu">
+            ×
+          </button>
+        </div>
+
+        <nav class="mobile-nav-links" aria-label="Mobile navigation">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#stack">Tech Stack</a>
+          <a class="nav-link" href="#devices">Devices</a>
+          <a class="nav-link" href="#socials">Socials</a>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-copy reveal reveal-left" data-delay="120">
+          <p class="eyebrow">Hey there</p>
+          <h1>I'm Nolan.</h1>
+          <p class="intro">
+            18, very friendly, and always doing something with software, phones,
+            or music.
+          </p>
+
+          <div class="hero-tags" aria-label="Quick facts">
+            <span>Age 18</span>
+            <span>C++</span>
+            <span>Python</span>
+            <span>Kernel hacker</span>
+            <span>Linux enthusiast</span>
+            <span>Open source contributor</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#about">Read My Story</a>
+            <a
+              class="button secondary"
+              href="https://github.com/nolan-archie"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card card reveal reveal-right" data-delay="220">
+          <p class="card-label">stuff</p>
+          <ul>
+            <li>I like messing with my phone, porting ROMs, and overclocking it.</li>
+            <li>I build software and contribute to open source projects</li>
+            <li>I play Genshin around 50 hours a week.</li>
+            <li>What's grass?</li>
+            <li>Music just hits hard. I love music.</li>
+            <li>I enjoy compiling optimized android kernels.</li>
+            <li>Arch Linux is my operating system of choice.</li>
+          
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading reveal reveal-up" data-delay="80">
+          <p class="eyebrow">About me</p>
+          <h2>What I’m into</h2>
+        </div>
+
+        <div class="cards-grid two-column">
+          <article class="card reveal reveal-up" data-delay="120">
+            <p class="card-label">Main interests</p>
+            <p>
+              I spend a lot of time messing with my phone, porting ROMs, pushing
+              performance, and seeing what I can get away with. I am deeply inlove with the linux kernel and I daily drive Arch Linux on my laptop.
+              I also love AOSP.
+            </p>
+          </article>
+
+          <article class="card reveal reveal-up" data-delay="180">
+            <p class="card-label">What I build</p>
+            <p>
+              I create software for different tasks and modify android kernels for a decently sized community of users.
+            </p>
+          </article>
+
+          <article class="card reveal reveal-up" data-delay="240">
+            <p class="card-label">Gaming hours</p>
+            <p>
+              Genshin takes a huge chunk of my week. Around 50 hours
+            </p>
+          </article>
+
+          <article class="card reveal reveal-up" data-delay="300">
+            <p class="card-label">Off-screen mood</p>
+            <p>
+              Music just hits hard. I love it, and it’s always somewhere in the
+              background while I’m building or tweaking something.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="section-heading reveal reveal-up" data-delay="80">
+          <p class="eyebrow">Tech stack</p>
+          <h2>The languages I use</h2>
+        </div>
+
+        <div class="cards-grid stack-grid">
+          <article class="card stack-card reveal reveal-up" data-delay="120">
+            <h3>C++</h3>
+            <p>For fast, low-level work and projects where performance matters.</p>
+          </article>
+
+          <article class="card stack-card reveal reveal-up" data-delay="200">
+            <h3>Python</h3>
+            <p>For utilities, and getting things done quickly.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="devices" class="section">
+        <div class="section-heading reveal reveal-up" data-delay="80">
+          <p class="eyebrow">Devices owned</p>
+          <h2>Daily hardware</h2>
+        </div>
+
+        <div class="cards-grid two-column">
+          <article class="card device-card reveal reveal-up" data-delay="120">
+            <p class="card-label">Phone</p>
+            <h3>Galaxy A16</h3>
+            <p></p>
+          </article>
+
+          <article class="card device-card reveal reveal-up" data-delay="200">
+            <p class="card-label">Laptop</p>
+            <h3>HP EliteBook 840 G5</h3>
+            <p></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="socials" class="section">
+        <div class="section-heading reveal reveal-up" data-delay="80">
+          <p class="eyebrow">Socials</p>
+          <h2>Find me here</h2>
+        </div>
+
+        <div class="cards-grid three-column">
+          <a
+            class="card social-card reveal reveal-up"
+            data-delay="120"
+            href="http://instagram.com/nolan._archie"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p class="card-label">Instagram</p>
+            <h3>@nolan._archie</h3>
+            <p></p>
+          </a>
+
+          <a
+            class="card social-card reveal reveal-up"
+            data-delay="200"
+            href="http://t.me/nolanarchie"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p class="card-label">Telegram</p>
+            <h3>@nolanarchie</h3>
+            <p>Best place to reach me directly.</p>
+          </a>
+
+          <a
+            class="card social-card reveal reveal-up"
+            data-delay="280"
+            href="https://github.com/nolan-archie"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p class="card-label">GitHub</p>
+            <h3>nolan-archie</h3>
+            <p>Code, experiments,kernel releases</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal reveal-up" data-delay="120">
+      <p>Hey there — I’m Nolan. Very friendly. Always building something.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
